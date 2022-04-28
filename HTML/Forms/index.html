@@ -1,0 +1,111 @@
+<html>
+ <head>
+   <title>Working with HTML Forms</title>
+ </head>
+ <body>
+  <h1>Login Page</h1>
+	<form>
+    <h1>Personal information</h1>
+    <label for="username">
+      Username: 
+      <input type="text" id="username" name="username">
+    </label>
+    <label for="password">
+      Password:
+      <input type="password" id="password" name="password">
+    </label>
+    <hr>
+    <h1>Email</h1>
+    <p>Try inputting text that isn't email and press 'Enter'</p>
+    <label for="email">
+      E-mail Address: 
+      <input type="email" id="email" name="email">
+    </label>
+    <hr>
+    <h1>Url-address</h1>
+    <p>Try inputting text that isn't a valid URL and press 'Enter'</p>
+    <label for="url">
+      URL: 
+      <input type="url" id="url" name="url">
+    </label>
+    <hr>
+    <h1>Textarea</h1>
+    <label for="multiLineInput">
+        <p>This is an input element that can include new lines:</p>
+        <textarea rows="5" cols="50" id="multiLineInput"></textarea>
+    </label>
+    <hr>
+    <h1> Buttons</h1>
+    <label for="firstName">First Name:</label>
+    <input type="text" name="firstName" id="firstName">
+    <label for="lastName">Last Name:</label>
+    <input type="text" name="lastName" id="lastName">
+    <!-- This button will submit the form, causing page to redirect -->
+    <button type="submit">Submit Name</button>
+    <br>
+    <br>
+    <label for="firstName">First Name:</label>
+    <input type="text" name="firstName" id="firstName">
+    <label for="lastName">Last Name:</label>
+    <input type="text" name="lastName" id="lastName">
+    <!-- This button will reset the form -->
+    <button type="reset">Reset Name</button>
+    <hr>
+    <h1>Selection inputs</h1>
+    <label for="selector">
+        <p>A <code>select</code> element allows users to input from a selection:</p>
+        <select id="selector">
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option selected>Option 3</option>
+          <option>Option 4</option>
+        </select>
+    </label>
+    <label for="selector">
+        <p>A <code>select</code> element allows users to input from a selection:</p>
+        <select id="selector">
+          <optgroup label="Group 1">
+            <option>Option 1</option>
+            <option>Option 2</option>
+          </optgroup>
+          <optgroup label="Group 2">
+            <option>Option 3</option>
+            <option>Option 4</option>
+          </optgroup>
+          <optgroup label="Group 3">
+            <option>Option 5</option>
+            <option>Option 6</option>
+          </optgroup>
+        </select>
+    </label>
+    <hr>
+    <h1>Radio buttons </h1>
+    <h3>What time is best to give you a call?</h3>
+    <label for="morning">
+      Morning
+      <input type="radio" id="morning">
+    </label>
+    <label for="afternoon">
+      Afternoon
+      <input type="radio" id="afternoon">
+    </label>
+    <label for="evening">
+      Evening
+      <input type="radio" id="evening">
+    </label>
+    <h3>Select all the times that you are available:</h3>
+    <label for="morning">
+      Morning
+      <input type="checkbox" id="morning" name="callTime" checked>
+    </label>
+    <label for="afternoon">
+      Afternoon
+      <input type="checkbox" id="afternoon" name="callTime">
+    </label>
+    <label for="evening">
+      Evening
+      <input type="checkbox" id="evening" name="callTime">
+    </label>
+  </form>
+ </body>
+</html>
