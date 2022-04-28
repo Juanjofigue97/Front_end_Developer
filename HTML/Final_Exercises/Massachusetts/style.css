@@ -1,0 +1,22 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  
+  header{
+    padding: 15px 15px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(186, 243, 247);
+  }
+  
+  section h1 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+  }
+
+  p{
+    font-size: 20;
+  }
+  
