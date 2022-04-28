@@ -1,0 +1,22 @@
+  body a{
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  p{
+    font-size: 20;
+  }
+  header{
+    padding: 0 0 50px 0;
+    font-size: 30;
+  }
+  img{
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+  }
+  footer{
+    padding: 50px 0 0 0;
+    font-size: 30;
+  }
+  
