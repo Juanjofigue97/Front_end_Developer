@@ -1,0 +1,21 @@
+p:first-child{
+    color: red;
+    font-size: 10px;
+}
+
+p:last-child{
+    background-color: red;
+    color: white;
+}
+
+p:only-child{
+    background-color: blue;
+    color: white;
+}
+
+li:nth-child(2n){
+    color: green;
+}
+li:nth-child(2n+1){
+    color: brown;
+}
