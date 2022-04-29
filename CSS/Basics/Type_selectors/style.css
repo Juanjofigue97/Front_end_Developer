@@ -1,0 +1,26 @@
+body {
+    background-color: #ccc;
+  }
+  
+  h1 {
+      color: black;
+  }
+  
+  .info {
+      color: white;
+  }
+  
+  .primary {
+      color: green;
+  }
+  
+  #warning {
+    color: red
+  }
+  
+  .info,
+  .primary {
+    background-color: black
+  }
+  
+  
