@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+h1{
+    color: green;
+}
+.info{
+    color: green;
+}
+.primary,#warning{
+    color: white;
+}
+.info,.primary{
+    background-color: blue;
+}
