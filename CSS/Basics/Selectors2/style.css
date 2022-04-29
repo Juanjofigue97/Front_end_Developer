@@ -1,0 +1,37 @@
+div h1 {
+    color: red;
+  }
+  
+  div h2 {
+    color: red;
+  }      
+section h1,
+section h2 {
+  color: blue;
+}
+a:link {
+    color: #0000ff;
+}
+a:visited {
+  color: #000000;
+}
+a:hover {
+  color: #00ccff;
+}
+a:active {
+  color: #ff0000;
+}
+div p:first-child {
+    color: green
+ }
+ div p:last-child {
+    color: rgb(0, 47, 255);
+  }
+
+  li:only-child {
+    color: red;
+  }
+
+  li:nth-child(even) {
+    color: rgb(14, 177, 253)
+  }
