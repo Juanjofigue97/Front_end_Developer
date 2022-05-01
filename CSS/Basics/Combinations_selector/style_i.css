@@ -1,0 +1,7 @@
+div > h1 {
+    border-bottom: 1px solid black;
+  }
+  
+  div > div > p {
+    border-bottom: 1px solid black;
+  }
