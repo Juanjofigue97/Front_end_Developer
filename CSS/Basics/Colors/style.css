@@ -1,0 +1,16 @@
+body {
+  background-color: lavender;
+}
+
+div.rgb > h3 {
+    color: rgb(100, 181, 246);
+  }
+
+div.rgba > p{
+    background-color: rgba(0,255,0,0.3)
+}
+div.hex >ul {
+    background-color: #4FC3F7;
+    color: #FFEB3B;
+
+}
