@@ -1,0 +1,15 @@
+/* 
+  Use selectors to give a border to nested 
+  h1 elements that have class and id attributes
+*/
+div.aboutClassSelectors>h1,div#aboutIdSelectors>h1{
+    border-bottom: 1px solid black;
+}
+
+/* 
+  Use selectors to italisize text for nested 
+  p elements that have class and id attributes
+*/
+div.aboutClassSelectors>p,div#aboutIdSelectors>p{
+    font-style: italic;
+}
