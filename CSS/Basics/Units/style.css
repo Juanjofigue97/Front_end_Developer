@@ -1,0 +1,17 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}    
+
+.content {
+   width: 60%;
+   height: 400px;
+   background-color: teal;
+}
+
+.sub-content {
+  width: 30%;
+  height: 80%;
+  background-color: #eaeaea;
+}   
