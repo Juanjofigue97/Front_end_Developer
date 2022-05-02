@@ -1,0 +1,20 @@
+#firts{
+    border-width: 5px; 
+    border-style: solid;
+    border-color: blue;
+}
+#Second{
+    border-width: 5px; 
+    border-style: groove;
+    border-color: rgb(55, 240, 215);
+}
+#third{
+    border-width: 5px; 
+    border-style: ridge;
+    border-color: rgb(139, 139, 235);
+}
+#fourth{
+    border-width: 5px; 
+    border-style: inset;
+    border-color: red;
+}
