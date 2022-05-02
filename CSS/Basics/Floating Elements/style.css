@@ -1,0 +1,27 @@
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  margin: 16px;
+}
+
+.image {
+  width: 120px;
+  height: 90px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  border: 2px solid dimgray;
+  background-color: lightgreen;
+  float: right;
+}
+
+.sidebar {
+  width: 240px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 2px solid dimgray;
+  background-color: lightskyblue;
+  padding: 0 8px;
+  float: left;
+}
+
+.sidebar h2 { margin: 8px; }
