@@ -1,0 +1,16 @@
+body * {
+  border: 3px solid black;
+  border-radius: 3px;
+}
+
+#halfWidthContainer {
+  width: 50%
+}
+
+.half {
+  width: 600px;
+}
+
+.quarter {
+  width: 300px;
+}
