@@ -1,0 +1,64 @@
+#border1 {
+	border: 10px dotted purple;
+  }
+  
+  #border2 {
+	border: 10px double green;
+  }
+  
+  #border3 {
+	border: 10px solid yellow;
+  }
+  
+  #border4 {
+	border: 10px groove teal;
+  }
+  h1 {
+    border: 10px solid black;
+    margin: 20px;
+  }
+  
+  .rounded {
+    border-radius: 15px;
+  }
+  
+  .elliptical {
+    border-radius: 50px / 25px;
+  }
+
+  /* 1 value: margin applied as
+	 same on all sides */
+#margin1 {
+  margin: 10px;
+}
+
+/* 2 values: margin applied as 
+	 vertical sides - horizontal sides */
+#margin2 {
+  margin: 10px 20px;
+}
+
+/* 3 values: margin applied as 
+   top - horizontal sides - bottom */
+#margin3 {
+  margin: 10px 20px 30px;
+}
+
+/* 4 values: margin applied as 
+   top - right - bottom - left */
+#margin4 {
+  margin: 10px 20px 30px 40px;
+}
+
+.spanBox {
+  border: 1px dashed black;
+  margin: 5px;
+  float: left;
+}
+
+span {
+  background-color: plum;
+  border: 5px solid green;
+  padding: 10px 20px;
+  display: inline-block;
+}
