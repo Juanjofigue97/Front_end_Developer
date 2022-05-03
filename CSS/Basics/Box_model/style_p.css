@@ -1,0 +1,39 @@
+/* A single value will apply the same 
+padding on all sides of the box */
+#padding1 {
+  padding: 10px;
+}
+
+/* Two values will apply as: 
+		first value - vertical sides
+		second value - horizontal sides */
+#padding2 {
+  padding: 5px 20px;
+}
+
+/* Three values will apply as:  
+		first value: top side
+		second value: horizontal sides
+		third value: bottom side */
+#padding3 {
+  padding: 10px 5px 30px;
+} 
+
+/* Four values will apply as: 
+		first value: top
+		second value: right
+		third value: bottom
+		fourth value: left
+*/
+#padding4 {
+  padding: 10px 5px 60px 35px;
+}
+
+div {
+  padding: 20px;
+}
+
+span {
+  background-color: plum;
+  border: 5px solid green;
+}
