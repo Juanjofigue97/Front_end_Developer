@@ -1,0 +1,14 @@
+.bg {
+    height: 100vh;
+    /* background-image: url("https://static.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg") */
+    background-image: url("http://i.imgur.com/Mx3P487.png");
+    
+}
+div {
+    /* height: 100vh; */
+    background-image: url("http://i.imgur.com/Mx3P487.png");
+    background-repeat: no-repeat;
+    /* write the background-size declaration below this comment 👇*/
+    /* for example, background-size: cover*/
+    background-size: 70%;
+}
