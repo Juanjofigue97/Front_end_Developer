@@ -1,0 +1,24 @@
+.centered{
+    text-align: center;
+}
+.V {   
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.A{
+    font-family: Arial;
+    font-size: 3em;
+
+}
+.S{
+    font-family:  sans-serif;
+}
+.M{
+    font-family: monospace;
+}
+.C{
+    font-family: cursive;
+}
+.F{
+    font-family: fantasy;
+}
