@@ -1,0 +1,34 @@
+.centered {
+    text-align: center;
+  }
+  
+  .leftAlign {
+    text-align: left;
+  }
+  
+  .rightAlign {
+    text-align: right;
+  }
+  
+  .justify {
+    text-align: justify;
+  }
+  div {
+    font-size: 200%;
+  }
+  
+  .small {
+    font-size: 0.5em;
+  }
+  
+  .normal {
+    font-size: 1em;
+  }
+  
+  .big {
+    font-size: 3rem;
+  }
+  .small_space{
+    font-size: 0.5rem;
+    line-height: 10px;
+  }
