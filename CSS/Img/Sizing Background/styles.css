@@ -1,0 +1,9 @@
+.bg {
+    height: 100vh;
+    background-image: url("https://static.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg"); 
+}
+div{
+    /* background-size: cover; */
+    /* background-size: 150px 200px; */
+    background-size: 50% 50%;
+}
