@@ -1,0 +1,36 @@
+/*Make parent element a flex container*/
+.flex-default{
+    display: flex; /*or inline-flex*/
+    list-style: none;
+
+  }
+.flex-column{
+    display: flex; /*or inline-flex*/
+    list-style: none;
+    flex-direction: column; /*|| column || row-reverse || column-reverse;*/
+
+}  
+  li {
+    width: 100px;
+    height: 100px;
+    background-color: #8cacea;
+    margin: 8px;
+  }
+h1{
+    text-align: center;
+}
+.Flex-wrap {
+    display: flex; /*or inline-flex*/
+    list-style: none;
+	  flex-wrap: wrap; /*Keep on taking more flex items without breaking (wrapping)*/
+}
+.Flex-wrap-reverse{
+    display: flex; /*or inline-flex*/
+    list-style: none;
+	flex-wrap: wrap-reverse;
+}
+.Flex-flow{
+    display: flex; /*or inline-flex*/
+    list-style: none;
+	flex-flow: row nowrap; /*direction 'row' and yes, please wrap the items.*/
+}
